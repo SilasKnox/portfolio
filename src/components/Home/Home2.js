@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar_me.jpg";
+import myImg from "../../Assets/eric.webp";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Pyton, Rust. </b>
-              </i>
+              I’m a full-stack developer who’s worked on a variety of projects, from project management platforms to AI-powered chatbots.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  AI.
-                </b>
-              </i>
+              I won’t claim to know everything, but I know how to tackle challenges, solve complex problems, and deliver products that work.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              My strength is turning difficult requirements into practical solutions—whether it’s microservices design, database optimization, cloud deployment, or AI integration—using approaches and insights other developers often miss.
+              <br />
+              <br />
+              Clients trust me because I communicate clearly, take ownership, and deliver solutions that grow with their business.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -58,13 +37,13 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            {/* <ul className="home-about-social-links">
+            <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/soumyajit4419"
@@ -105,9 +84,9 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul> */}
+            </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
